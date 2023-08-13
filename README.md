@@ -14,5 +14,5 @@ How to Build and Install
 
 1. Build artifacts: `make all`
 2. Install the artifact to browsers:
-    * Google Chrome: `dist/chrome/monospace-textrea.zip`
-    * Mozilla Firefox: `dist/firefox/monospace-textarea.zip`
+    * Google Chrome: `browsers/chrome/dist/monospace_textrea-chrome-v0.0.1.zip`
+    * Mozilla Firefox: `browsers/firefox/dist/monospace_textarea-firefox-v0.0.1.zip`
