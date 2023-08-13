@@ -10,7 +10,7 @@ clean:
 	rm -rf dist
 
 dist/%.zip: dist/manifest.json dist/LICENSE dist/images dist/css
-	zip -r $@ $^
+	cd $(dir $@) && zip -r $(notdir $@) $(foreach in,$^,$(in:dist/%=%))
 
 dist/manifest.json: manifest.json
 	cp $< $@
