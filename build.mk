@@ -1,4 +1,4 @@
-VERSION := v0.0.2
+VERSION := v0.0.3
 ARTIFACT := dist/monospace_textarea-$(BROWSER)-$(VERSION).zip
 
 all: dist $(ARTIFACT)
